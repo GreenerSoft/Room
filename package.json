@@ -1,0 +1,34 @@
+{
+  "name": "room-js",
+  "version": "1.0.0",
+  "type": "module",
+  "browser": "room.min.js",
+  "jsdelivr": "room.min.js",
+  "unpkg": "room.min.js",
+  "files": [
+    "room.js",
+    "room.min.js",
+    "room-nm.js",
+    "room-nm.min.js"
+  ],
+  "scripts": {
+    "minify": "terser room.js --ecma 2019 --module --comments -c -m reserved=['h','elements','setData','getData','onError','map'] -o room.min.js ; terser room-nm.js --ecma 2019 --comments -c -m -o room-nm.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenerSoft/Room.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GreenerSoft/Room/issues"
+  },
+  "keywords": [
+    "ESM",
+    "JavaScript",
+    "Reactive",
+    "UI"
+  ],
+  "author": "GreenerSoft",
+  "license": "MIT",
+  "description": "Un module JavaScript simple et ultra léger pour le développement d’interfaces utilisateurs réactives.",
+  "homepage": "https://roomjs.fr"
+}

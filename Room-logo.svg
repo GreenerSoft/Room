@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="-300 -300 600 600">
+	<g id="a">
+		<g id="b" fill="#007FFF">
+			<rect x="-230" y="-20" width="460" height="40"/>
+			<circle id="c" cx="-230" r="70"/>
+			<circle id="d" cx="-230" r="30" fill="white"/>
+			<use href="#c" x="460"/>
+			<use href="#d" x="460"/>
+		</g>
+		<use href="#b" transform="rotate(90)"/>
+	</g>
+	<use href="#a" transform="rotate(45)"/>
+</svg>
